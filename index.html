@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" sizes="32x32" href="./images/nike_logo.png" type="image/png">
+    <link rel="icon" sizes="16x16" href="./images/nike_logo.png" type="image/png">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="stylesheet" href="./css/responsive.css">
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Nike by Ariel</title>
+</head>
+<body>
+    <header>
+    
+        <nav>
+            <div class="logo">
+              <img src="./images/nike_logo.png" alt="logo nike">
+            </div>
+            <div class="cart-container">
+              <button id="cart-toggle">
+                <i class="fas fa-shopping-cart"></i>
+                <span id="cart-count">0</span>
+              </button>
+              <div id="cart" class="cart-dropdown">
+                <ul id="cart-items"></ul>
+                <p>Total: R$ <span id="cart-total">0</span></p>
+                <button id="checkout-btn">Finalizar Compra</button>
+              </div>
+            </div>
+
+           <ul>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+  </header>
+
+  <section class="Inicio">
+    <video autoplay muted loop id="hero-video">
+      <source src="./images/Nike Jordan 1.mp4" type="video/mp4">
+      Seu navegador não suporta a tag de vídeo.
+    </video>
+    <div class="hero-text">
+      <h1>Just Do It.</h1>
+      <p>Eleve seu estilo com os novos lançamentos Nike.</p>
+      <a href="#shop-section" class="cta-button">Confira Agora</a>
+    </div>
+  </section>
+  
+
+  <section class="lebron-section">
+    <div class="background-splash"></div>
+
+    <img src="./images/lebron-james.png" alt="LeBron" class="lebron-image">
+
+    <div class="lebronT">
+      <img class="tenis" src="./images/scLebron.webp" alt="Tenis">
+    </div>
+
+    <div class="text-info">
+      <h1>LeBron James</h1>
+      <p>King of the Court</p>
+    </div>
+  </section>
+  
+
+  <section class="nike-section" id="sobre">
+        <div class="nike-content">
+          <h1>Sobre a Nike</h1>
+          <p>Fundada em 1964, a Nike é líder global em roupas e calçados esportivos. Nossa missão é inspirar atletas de todos os níveis, promovendo inovação, sustentabilidade e cultura esportiva. Nossos valores incluem performance, criatividade e responsabilidade social.</p>
+
+          <div class="people-cards">
+            <div class="person">
+              <img src="./images/Lebron_sobre.jpg" alt="LeBron James">
+              <h2>LeBron James</h2>
+              <p>"I’m all about greatness on and off the court."</p>
+            </div>
+
+            <div class="person">
+              <img src="./images/ceoNike.jpg" alt="CEO Nike">
+              <h2>John Donahoe</h2>
+              <p>"Innovation is the heartbeat of Nike."</p>
+            </div>
+
+            <div class="person">
+              <img src="./images/Serena Williams.webp" alt="Serena Williams">
+              <h2>Serena Williams</h2>
+              <p>"Victory is earned, not given."</p>
+            </div>
+          </div>
+        </div>
+  </section>
+
+<section class="sneakers-section" id="sneakers">
+  <div class="text-overlay">
+    <h1 class="street-title">Nova Coleção</h1>
+    <p class="street-subtitle">Estilo e performance em cada passo</p>
+  </div>
+  <div class="sneaker-display">
+    <img src="./images/drosa.webp" alt="Tênis 1" class="sneaker sneaker1">
+    <img src="./images/dunk_blue_red.webp" alt="Tênis 2" class="sneaker sneaker2">
+    <img src="./images/Dunk_caramelo.webp" alt="Tênis 3" class="sneaker sneaker3">
+    <img src="./images/dunk_red.webp" alt="Tênis 4" class="sneaker sneaker4">
+    <img src="./images/Dunk_panda.webp" alt="Tênis 5" class="sneaker sneaker5">
+    
+  </div>
+</section>
+
+<section class="shop-section" id="shop-section">
+  <div class="shop-carousel">
+    <div class="shop-track">
+
+      <div class="shop-card">
+        <img src="./images/drosa.webp" alt="Tênis 1">
+        <h3>Dunk low Rosa</h3>
+        <p>R$ 499,00</p>
+        <button>Comprar</button>
+      </div>
+
+      <div class="shop-card">
+        <img src="./images/dunk_blue_red.webp" alt="Tênis 2">
+        <h3>Dunk low Blue & Red</h3>
+        <p>R$ 599,00</p>
+        <button>Comprar</button>
+      </div>
+
+      <div class="shop-card">
+        <img src="./images/Dunk_caramelo.webp" alt="Tênis 3">
+        <h3>Dunk low Caramelo</h3>
+        <p>R$ 549,00</p>
+        <button>Comprar</button>
+      </div>
+      
+        <div class="shop-card">
+        <img src="./images/dunk_offset.webp" alt="Tênis 4">
+        <h3>Dunk low offset</h3>
+        <p>R$ 549,00</p>
+        <button>Comprar</button>
+      </div>
+
+        <div class="shop-card">
+          <img src="./images/dunk_red.webp" alt="Tênis 5">
+          <h3>Dunk low red & white</h3>
+          <p>R$ 549,00</p>
+          <button>Comprar</button>
+        </div>
+
+         <div class="shop-card">
+          <img src="./images/Dunk_panda.webp" alt="Tênis 6">
+          <h3>Dunk low Black & White</h3>
+          <p>R$ 549,00</p>
+          <button>Comprar</button>
+        </div>
+
+         <div class="shop-card">
+          <img src="./images/j4.webp" alt="Tênis 7">
+          <h3>Air Jordan 4 Black</h3>
+          <p>R$ 549,00</p>
+          <button>Comprar</button>
+        </div>
+
+          <div class="shop-card">
+            <img src="./images/jordar off white.png" alt="Tênis 8">
+            <h3>Air Jordan Off-White</h3>
+            <p>R$ 549,00</p>
+            <button>Comprar</button>
+         </div>
+
+         <div class="shop-card">
+            <img src="./images/AJ RETRO.webp" alt="Tênis 9">
+            <h3>Air Jordan Retro High OG</h3>
+            <p>R$ 549,00</p>
+            <button>Comprar</button>
+        </div>
+
+        <div class="shop-card">
+            <img src="./images/aj3.webp" alt="Tênis 10">
+            <h3>Air Jordan 3 Retro</h3>
+            <p>R$ 549,00</p>
+            <button>Comprar</button>
+        </div>
+    </div>
+  </div>
+</section>
+
+    <footer class="site-footer" id="contato">
+        <div class="footer-container">
+
+          <!-- Logo + Descrição -->
+          <div class="footer-brand">
+            <img src="./images/nike_logo.png" alt="Nike Logo">
+            <p>Just Do It. Inspirando atletas e estilos no mundo todo.</p>
+          </div>
+
+          <!-- Links rápidos -->
+          <div class="footer-links">
+            <h3>Links</h3>
+            <ul>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#sneakers">Coleção</a></li>
+             
+            </ul>
+          </div>
+
+          <!-- Redes sociais -->
+          <div class="footer-social">
+            <h3>Nos siga</h3>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+
+          <!-- Contato -->
+          <div class="footer-contact">
+            <h3>Contato</h3>
+            <p><i class="fas fa-envelope"></i> contato@nike.com</p>
+            <p><i class="fas fa-phone"></i> (11) 99999-9999</p>
+          </div>
+        </div>
+
+        <!-- Direitos -->
+        <div class="footer-bottom">
+          <p>&copy; 2025 Nike by Ariel. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+
+   <script src="./logo.js"></script>
+  
+</body>
+</html>

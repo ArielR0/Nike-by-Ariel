@@ -1,0 +1,348 @@
+
+/* ======= Responsividade Section Início ======= */
+
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .hero-text h1 {
+    font-size: 3.5rem;
+  }
+  .hero-text p {
+    font-size: 1.3rem;
+  }
+  .hero-text .cta-button {
+    padding: 12px 30px;
+    font-size: 1.1rem;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hero-text h1 {
+    font-size: 2.8rem;
+  }
+  .hero-text p {
+    font-size: 1.1rem;
+  }
+  .hero-text .cta-button {
+    padding: 10px 25px;
+    font-size: 1rem;
+  }
+
+
+}
+
+
+@media (max-width: 767px) {
+  .Inicio {
+    height: 80vh; 
+  }
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+  .hero-text p {
+    font-size: 1rem;
+  }
+  .hero-text .cta-button {
+    padding: 8px 20px;
+    font-size: 0.9rem;
+  }
+}  
+
+
+
+/* Lebron – RESPONSIVO  */
+
+@media (max-width: 1024px) {
+  section.lebron-section {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .lebron-section {
+    padding: 40px 8%;
+    gap: 30px;       
+  }
+
+  .lebron-section img {
+    width: 60%;       
+    padding-left: 320px
+  }
+  .text-info{
+    margin-right: 70px;
+    margin-top: 300px;
+  }
+
+  .lebronT img {
+    width: 800px;
+    margin-right: 200px;
+  }
+
+  .lebron-content {
+    font-size: 0.95rem; 
+  }
+}
+
+
+/* NIKE SECTION – RESPONSIVO  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .nike-section .nike-content h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .nike-section .nike-content p {
+    font-size: 16px;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+  }
+
+  .people-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .people-cards .person {
+    width: 300px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .people-cards .person img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; 
+  }
+}
+
+
+@media (max-width: 767px) {
+  .nike-section .nike-content h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-right: 30px;
+  }
+
+ 
+  .nike-section .nike-content p {
+    font-size: 14px;
+    text-align: center;
+    max-width: 90%;
+    margin-left: 8px;
+    
+  }
+
+  .people-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .people-cards .person {
+    width: 50%; 
+    display: flex;
+    margin-right: 30px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .people-cards .person img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .people-cards p {
+    padding-right: 10px;
+  }
+}
+
+
+/*Section Sneakers */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .sneakers-section {
+    padding: 20px 10px;
+    text-align: center;
+  }
+
+  .text-overlay h1 {
+    font-size: 2.5rem;
+    margin-left: 14px;
+  }
+
+  .text-overlay p {
+    font-size: 16px;
+  }
+
+  .sneaker-display {
+    position: relative;
+    height: auto;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    gap: 140px; 
+  }
+
+  
+  .sneaker {
+    display: none;
+    position: static !important;
+    width: auto;
+    max-width: 200px;
+    transform: none !important;
+  }
+
+  .sneaker1,
+  .sneaker2,
+  .sneaker3,
+  .sneaker4 {
+    display: block;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .sneakers-section {
+    padding: 20px 10px;
+    text-align: center;
+  }
+
+  .text-overlay h1 {
+    font-size: 2rem;
+    margin-left: 14px;
+
+  }
+
+  .text-overlay p {
+    font-size: 14px;
+  }
+
+  .sneaker-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
+
+  .sneaker {
+    display: none;
+    position: static !important;
+    width: auto;
+    max-width: 250px;
+    transform: none !important;
+  }
+
+  .sneaker1 {
+    display: block;
+  }
+}
+
+
+/* SHOP SECTION – RESPONSIVO */
+
+@media (max-width: 1200px) {
+  #shop-section .shop-card {
+    width: 240px !important;
+  }
+  #shop-section .shop-card img {
+    height: 160px !important;
+    object-fit: contain !important;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  #shop-section .shop-card {
+    width: 30px !important;
+    margin-left: 3.5px;  
+  }
+  #shop-section .shop-card h3 {
+    font-size: 16px !important;
+  }
+  #shop-section .shop-card p,
+  #shop-section .shop-card button {
+    font-size: 14px !important;
+  }
+}
+
+
+@media (max-width: 767px) {
+  #shop-section .shop-carousel {
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;  
+    scroll-padding: 16px;           
+    padding-bottom: 8px;
+  }
+
+  #shop-section .shop-track {
+    display: flex !important;
+    gap: 16px !important;
+    width: max-content !important;
+  }
+
+  #shop-section .shop-card {
+    flex: 0 0 80vw !important; 
+    margin-left: 3.5px;    
+    max-width: 380px !important;
+    scroll-snap-align: center;     
+}
+
+  #shop-section .shop-card img {
+    height: 160px !important;
+  }
+
+  #shop-section .shop-card h3 {
+    font-size: 15px !important;
+  }
+  #shop-section .shop-card p,
+  #shop-section .shop-card button {
+    font-size: 13px !important;
+  }
+}
+
+
+/* Footer Rps */
+
+
+@media (max-width: 1024px) {
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text p {
+    font-size: 14px;
+  }
+
+  .lebron-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
