@@ -162,7 +162,7 @@ nav .logo img {
 
 .lebron-image {
     position: relative;
-    margin-right: 1300px;
+    margin-right: 70%;
     margin-bottom: -80px;
     z-index: 2;
     width: 850px;
@@ -190,7 +190,7 @@ nav .logo img {
 }
 
 .tenis {
-    width: 1000px;
+    width: 90%px;
     height: auto;
     display: block;
     transform: rotate(10deg);
@@ -224,6 +224,7 @@ nav .logo img {
 }
 
 .sneaker-display {
+    overflow: hidden;
     flex: 1;
     position: relative;
     height: 300px;
@@ -323,6 +324,7 @@ nav .logo img {
 .shop-track { display: flex; gap: 20px; transition: transform 0.5s ease; }
 
 .shop-card {
+    width: 100%;
     background: #fff;
     border-radius: 12px;
     padding: 20px;
