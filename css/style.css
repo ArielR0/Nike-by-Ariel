@@ -55,10 +55,11 @@ nav .logo img {
 }
 
 #hero-video {
+    overflow: hidden;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  max-width: 100%; /* evita ultrapassar a largura */
+  max-width: 100%; 
 }
 
 .Inicio {
