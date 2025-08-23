@@ -224,7 +224,7 @@ nav .logo img {
 }
 
 .sneaker-display {
-    overflow: hidden;
+    overflow-x: visible;
     flex: 1;
     position: relative;
     height: 300px;
